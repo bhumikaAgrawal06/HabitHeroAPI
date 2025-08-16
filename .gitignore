@@ -482,3 +482,32 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+.eggs/
+
+# Jupyter / Streamlit
+.ipynb_checkpoints/
+.streamlit/
+
+# Local data files
+*.db
+*.sqlite3
+*.log
+
+# IDEs
+.idea/
+.vscode/
