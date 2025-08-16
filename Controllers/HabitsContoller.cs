@@ -7,10 +7,10 @@ namespace HabitHeroAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class HabitController : ControllerBase
+    public class HabitsController : ControllerBase
     {
         private readonly HabitContext _context;
-        public HabitController(HabitContext context)
+        public HabitsController(HabitContext context)
         {
             _context = context;
         }
